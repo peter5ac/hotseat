@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* HotSeatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* HotSeatApp.swift */; };
+		A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* ContentView.swift */; };
+		A1000003 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* CameraPreviewView.swift */; };
+		A1000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000004 /* Assets.xcassets */; };
+		A1000005 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005 /* HomeView.swift */; };
+		A1000006 /* SpinWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* SpinWheelView.swift */; };
+		A1000007 /* WheelAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007 /* WheelAudio.swift */; };
+		A1000008 /* SpeedTapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000008 /* SpeedTapViewModel.swift */; };
+		A1000009 /* SpeedTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000009 /* SpeedTapView.swift */; };
+		A1000010 /* LaneDodgeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000010 /* LaneDodgeViewModel.swift */; };
+		A1000011 /* LaneDodgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000011 /* LaneDodgeView.swift */; };
+		A1000012 /* TugOfWarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000012 /* TugOfWarViewModel.swift */; };
+		A1000013 /* TugOfWarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000013 /* TugOfWarView.swift */; };
+		A1000014 /* HeadsUpCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000014 /* HeadsUpCategories.swift */; };
+		A1000015 /* MotionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000015 /* MotionTracker.swift */; };
+		A1000016 /* HeadsUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000016 /* HeadsUpViewModel.swift */; };
+		A1000017 /* HeadsUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000017 /* HeadsUpView.swift */; };
+		A1000018 /* TicTacToeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000018 /* TicTacToeViewModel.swift */; };
+		A1000019 /* TicTacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000019 /* TicTacToeView.swift */; };
+		A1000020 /* SimonGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000020 /* SimonGameViewModel.swift */; };
+		A1000021 /* SimonGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000021 /* SimonGameView.swift */; };
+		A1000022 /* LaserEyesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000022 /* LaserEyesViewModel.swift */; };
+		A1000023 /* LaserEyesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000023 /* LaserEyesView.swift */; };
+		A1000024 /* VisualFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000024 /* VisualFeedback.swift */; };
+		A1000025 /* BuildTimestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000025 /* BuildTimestamp.swift */; };
+		A1000026 /* ChocolateRainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000026 /* ChocolateRainViewModel.swift */; };
+		A1000027 /* ChocolateRainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000027 /* ChocolateRainView.swift */; };
+		A1000028 /* VocalGlideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000028 /* VocalGlideViewModel.swift */; };
+		A1000029 /* VocalGlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000029 /* VocalGlideView.swift */; };
+		A100002A /* ChoiceGateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200002A /* ChoiceGateViewModel.swift */; };
+		A100002B /* ChoiceGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200002B /* ChoiceGateView.swift */; };
+		A100002C /* UltimateTTTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200002C /* UltimateTTTViewModel.swift */; };
+		A100002D /* UltimateTTTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200002D /* UltimateTTTView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2000001 /* HotSeatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSeatApp.swift; sourceTree = "<group>"; };
+		A2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2000003 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		A2000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000005 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A2000006 /* SpinWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelView.swift; sourceTree = "<group>"; };
+		A2000007 /* WheelAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelAudio.swift; sourceTree = "<group>"; };
+		A2000008 /* SpeedTapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTapViewModel.swift; sourceTree = "<group>"; };
+		A2000009 /* SpeedTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTapView.swift; sourceTree = "<group>"; };
+		A2000010 /* LaneDodgeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaneDodgeViewModel.swift; sourceTree = "<group>"; };
+		A2000011 /* LaneDodgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaneDodgeView.swift; sourceTree = "<group>"; };
+		A2000012 /* TugOfWarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugOfWarViewModel.swift; sourceTree = "<group>"; };
+		A2000013 /* TugOfWarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugOfWarView.swift; sourceTree = "<group>"; };
+		A2000014 /* HeadsUpCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsUpCategories.swift; sourceTree = "<group>"; };
+		A2000015 /* MotionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTracker.swift; sourceTree = "<group>"; };
+		A2000016 /* HeadsUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsUpViewModel.swift; sourceTree = "<group>"; };
+		A2000017 /* HeadsUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsUpView.swift; sourceTree = "<group>"; };
+		A2000018 /* TicTacToeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewModel.swift; sourceTree = "<group>"; };
+		A2000019 /* TicTacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeView.swift; sourceTree = "<group>"; };
+		A2000020 /* SimonGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonGameViewModel.swift; sourceTree = "<group>"; };
+		A2000021 /* SimonGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonGameView.swift; sourceTree = "<group>"; };
+		A2000022 /* LaserEyesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserEyesViewModel.swift; sourceTree = "<group>"; };
+		A2000023 /* LaserEyesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserEyesView.swift; sourceTree = "<group>"; };
+		A2000024 /* VisualFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualFeedback.swift; sourceTree = "<group>"; };
+		A2000025 /* BuildTimestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTimestamp.swift; sourceTree = "<group>"; };
+		A2000026 /* ChocolateRainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateRainViewModel.swift; sourceTree = "<group>"; };
+		A2000027 /* ChocolateRainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateRainView.swift; sourceTree = "<group>"; };
+		A2000028 /* VocalGlideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocalGlideViewModel.swift; sourceTree = "<group>"; };
+		A2000029 /* VocalGlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocalGlideView.swift; sourceTree = "<group>"; };
+		A200002A /* ChoiceGateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceGateViewModel.swift; sourceTree = "<group>"; };
+		A200002B /* ChoiceGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceGateView.swift; sourceTree = "<group>"; };
+		A200002C /* UltimateTTTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateTTTViewModel.swift; sourceTree = "<group>"; };
+		A200002D /* UltimateTTTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateTTTView.swift; sourceTree = "<group>"; };
+		A3000001 /* HotSeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotSeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5000001 = {
+			isa = PBXGroup;
+			children = (
+				A5000002 /* HotSeat */,
+				A5000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5000002 /* HotSeat */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001 /* HotSeatApp.swift */,
+				A2000002 /* ContentView.swift */,
+				A2000003 /* CameraPreviewView.swift */,
+				A2000005 /* HomeView.swift */,
+				A2000006 /* SpinWheelView.swift */,
+				A2000007 /* WheelAudio.swift */,
+				A2000008 /* SpeedTapViewModel.swift */,
+				A2000009 /* SpeedTapView.swift */,
+				A2000010 /* LaneDodgeViewModel.swift */,
+				A2000011 /* LaneDodgeView.swift */,
+				A2000012 /* TugOfWarViewModel.swift */,
+				A2000013 /* TugOfWarView.swift */,
+				A2000014 /* HeadsUpCategories.swift */,
+				A2000015 /* MotionTracker.swift */,
+				A2000016 /* HeadsUpViewModel.swift */,
+				A2000017 /* HeadsUpView.swift */,
+				A2000018 /* TicTacToeViewModel.swift */,
+				A2000019 /* TicTacToeView.swift */,
+				A2000020 /* SimonGameViewModel.swift */,
+				A2000021 /* SimonGameView.swift */,
+				A2000022 /* LaserEyesViewModel.swift */,
+				A2000023 /* LaserEyesView.swift */,
+				A2000024 /* VisualFeedback.swift */,
+				A2000025 /* BuildTimestamp.swift */,
+				A2000026 /* ChocolateRainViewModel.swift */,
+				A2000027 /* ChocolateRainView.swift */,
+				A2000028 /* VocalGlideViewModel.swift */,
+				A2000029 /* VocalGlideView.swift */,
+				A200002A /* ChoiceGateViewModel.swift */,
+				A200002B /* ChoiceGateView.swift */,
+				A200002C /* UltimateTTTViewModel.swift */,
+				A200002D /* UltimateTTTView.swift */,
+				A2000004 /* Assets.xcassets */,
+			);
+			path = HotSeat;
+			sourceTree = "<group>";
+		};
+		A5000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3000001 /* HotSeat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6000001 /* HotSeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8000003 /* Build configuration list for PBXNativeTarget "HotSeat" */;
+			buildPhases = (
+				A4000003 /* Generate Build Timestamp */,
+				A7000001 /* Sources */,
+				A4000001 /* Frameworks */,
+				A4000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotSeat;
+			productName = HotSeat;
+			productReference = A3000001 /* HotSeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A8000001 /* Build configuration list for PBXProject "HotSeat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5000001;
+			productRefGroup = A5000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6000001 /* HotSeat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000004 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4000003 /* Generate Build Timestamp */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Build Timestamp";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "EPOCH=$(date +%s)\ncat > \"${SRCROOT}/HotSeat/BuildTimestamp.swift\" << SWIFT\n// Auto-generated by build phase \\u2014 do not edit manually.\nenum BuildTimestamp {\n    static let epoch: Int = ${EPOCH}\n}\nSWIFT\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* HotSeatApp.swift in Sources */,
+				A1000002 /* ContentView.swift in Sources */,
+				A1000003 /* CameraPreviewView.swift in Sources */,
+				A1000005 /* HomeView.swift in Sources */,
+				A1000006 /* SpinWheelView.swift in Sources */,
+				A1000007 /* WheelAudio.swift in Sources */,
+				A1000008 /* SpeedTapViewModel.swift in Sources */,
+				A1000009 /* SpeedTapView.swift in Sources */,
+				A1000010 /* LaneDodgeViewModel.swift in Sources */,
+				A1000011 /* LaneDodgeView.swift in Sources */,
+				A1000012 /* TugOfWarViewModel.swift in Sources */,
+				A1000013 /* TugOfWarView.swift in Sources */,
+				A1000014 /* HeadsUpCategories.swift in Sources */,
+				A1000015 /* MotionTracker.swift in Sources */,
+				A1000016 /* HeadsUpViewModel.swift in Sources */,
+				A1000017 /* HeadsUpView.swift in Sources */,
+				A1000018 /* TicTacToeViewModel.swift in Sources */,
+				A1000019 /* TicTacToeView.swift in Sources */,
+				A1000020 /* SimonGameViewModel.swift in Sources */,
+				A1000021 /* SimonGameView.swift in Sources */,
+				A1000022 /* LaserEyesViewModel.swift in Sources */,
+				A1000023 /* LaserEyesView.swift in Sources */,
+				A1000024 /* VisualFeedback.swift in Sources */,
+				A1000025 /* BuildTimestamp.swift in Sources */,
+				A1000026 /* ChocolateRainViewModel.swift in Sources */,
+				A1000027 /* ChocolateRainView.swift in Sources */,
+				A1000028 /* VocalGlideViewModel.swift in Sources */,
+				A1000029 /* VocalGlideView.swift in Sources */,
+				A100002A /* ChoiceGateViewModel.swift in Sources */,
+				A100002B /* ChoiceGateView.swift in Sources */,
+				A100002C /* UltimateTTTViewModel.swift in Sources */,
+				A100002D /* UltimateTTTView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KWDH533B22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hot Seat";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera as a live background for the ranking game.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vocal Glide uses the microphone to detect your voice pitch and volume.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.audrey.HotSeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KWDH533B22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hot Seat";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera as a live background for the ranking game.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vocal Glide uses the microphone to detect your voice pitch and volume.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.audrey.HotSeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8000001 /* Build configuration list for PBXProject "HotSeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8000004 /* Debug */,
+				A8000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8000003 /* Build configuration list for PBXNativeTarget "HotSeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8000006 /* Debug */,
+				A8000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9000001 /* Project object */;
+}
