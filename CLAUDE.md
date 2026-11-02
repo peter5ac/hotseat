@@ -28,6 +28,8 @@ top-5 slot. More games/filters are intended to be added later.
 - `HotSeat/CameraPreviewView.swift` — `UIViewRepresentable` wrapping the front-camera
   preview layer used as the background.
 - `HotSeat/HomeView.swift` — game picker home screen with game tiles and spin wheel.
+- `HotSeat/DotsAndBoxesView.swift` — Dots & Boxes two-player game UI (black background, no camera).
+- `HotSeat/DotsAndBoxesViewModel.swift` — Dots & Boxes game logic: grid lines, box completion, extra turns.
 - `HotSeat/SpinWheelView.swift` — pie/reel spin wheel for random game selection.
 - `HotSeat/WheelAudio.swift` — synthesized tick/ding audio for the spin wheel.
 - `PRODUCT.md` — product brief: audience, brand personality, design principles.

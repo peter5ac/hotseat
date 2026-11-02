@@ -21,6 +21,7 @@ let allGames: [Game] = [
     Game(id: "vocalGlide", name: "Pig Flight", emoji: "🐷", icon: nil, isAvailable: true),
     Game(id: "choiceGate", name: "This or That", emoji: "⚖️", icon: nil, isAvailable: true),
     Game(id: "ultimateTTT", name: "Ultimate TTT", emoji: "#️⃣", icon: nil, isAvailable: true),
+    Game(id: "dotsAndBoxes", name: "Dots & Boxes", emoji: "⬜", icon: nil, isAvailable: true),
 ]
 
 struct HomeView: View {
@@ -36,6 +37,7 @@ struct HomeView: View {
     let onSelectVocalGlide: () -> Void
     let onSelectChoiceGate: () -> Void
     let onSelectUltimateTTT: () -> Void
+    let onSelectDotsAndBoxes: () -> Void
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     @State private var showingGameWheel = false
 
@@ -162,6 +164,8 @@ struct HomeView: View {
                                     onSelectChoiceGate()
                                 case "ultimateTTT":
                                     onSelectUltimateTTT()
+                                case "dotsAndBoxes":
+                                    onSelectDotsAndBoxes()
                                 default:
                                     break
                                 }
@@ -207,6 +211,8 @@ struct HomeView: View {
                     onSelectChoiceGate()
                 case "ultimateTTT":
                     onSelectUltimateTTT()
+                case "dotsAndBoxes":
+                    onSelectDotsAndBoxes()
                 default:
                     break
                 }

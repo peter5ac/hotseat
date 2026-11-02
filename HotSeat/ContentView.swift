@@ -14,6 +14,7 @@ enum AppScreen {
     case vocalGlide
     case choiceGate
     case ultimateTTT
+    case dotsAndBoxes
 }
 
 @Observable
@@ -66,6 +67,10 @@ final class AppViewModel {
 
     func openUltimateTTT() {
         screen = .ultimateTTT
+    }
+
+    func openDotsAndBoxes() {
+        screen = .dotsAndBoxes
     }
 
     func goHome() {
@@ -565,7 +570,7 @@ struct ContentView: View {
             // selfie feed is pointless and wastes power, so suppress the camera
             // entirely for that screen. Removing the view deallocates
             // CameraUIView, which stops the capture session.
-            if appViewModel.screen == .headsUp || appViewModel.screen == .ultimateTTT {
+            if appViewModel.screen == .headsUp || appViewModel.screen == .ultimateTTT || appViewModel.screen == .dotsAndBoxes {
                 Color.black
                     .ignoresSafeArea()
             } else {
@@ -629,6 +634,9 @@ struct ContentView: View {
                     },
                     onSelectUltimateTTT: {
                         appViewModel.openUltimateTTT()
+                    },
+                    onSelectDotsAndBoxes: {
+                        appViewModel.openDotsAndBoxes()
                     }
                 )
             case .rank:
@@ -721,6 +729,12 @@ struct ContentView: View {
                 )
             case .ultimateTTT:
                 UltimateTTTView(onExit: {
+                    withAnimation(.spring(duration: 0.3)) {
+                        appViewModel.goHome()
+                    }
+                })
+            case .dotsAndBoxes:
+                DotsAndBoxesView(onExit: {
                     withAnimation(.spring(duration: 0.3)) {
                         appViewModel.goHome()
                     }
