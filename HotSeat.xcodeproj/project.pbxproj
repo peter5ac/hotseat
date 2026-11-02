@@ -11,6 +11,7 @@
 		A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* ContentView.swift */; };
 		A1000003 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* CameraPreviewView.swift */; };
 		A1000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000004 /* Assets.xcassets */; };
+		A1000099 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A2000099 /* PrivacyInfo.xcprivacy */; };
 		A1000005 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005 /* HomeView.swift */; };
 		A1000006 /* SpinWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* SpinWheelView.swift */; };
 		A1000007 /* WheelAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007 /* WheelAudio.swift */; };
@@ -47,6 +48,7 @@
 		A2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2000003 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
 		A2000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000099 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		A2000005 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A2000006 /* SpinWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelView.swift; sourceTree = "<group>"; };
 		A2000007 /* WheelAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelAudio.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				A200002C /* UltimateTTTViewModel.swift */,
 				A200002D /* UltimateTTTView.swift */,
 				A2000004 /* Assets.xcassets */,
+				A2000099 /* PrivacyInfo.xcprivacy */,
 			);
 			path = HotSeat;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1000004 /* Assets.xcassets in Resources */,
+				A1000099 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +326,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_CFBundleDisplayName = "Hot Seat";
-				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera as a live background for the ranking game.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Hot Seat uses the front camera as a live background and for face-based games. Nothing is recorded or saved.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vocal Glide uses the microphone to detect your voice pitch and volume.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -353,7 +357,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_CFBundleDisplayName = "Hot Seat";
-				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera as a live background for the ranking game.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Hot Seat uses the front camera as a live background and for face-based games. Nothing is recorded or saved.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Vocal Glide uses the microphone to detect your voice pitch and volume.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
