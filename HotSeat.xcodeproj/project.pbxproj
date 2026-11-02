@@ -41,6 +41,8 @@
 		A100002B /* ChoiceGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200002B /* ChoiceGateView.swift */; };
 		A100002C /* UltimateTTTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200002C /* UltimateTTTViewModel.swift */; };
 		A100002D /* UltimateTTTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200002D /* UltimateTTTView.swift */; };
+		A100002E /* DotsAndBoxesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200002E /* DotsAndBoxesViewModel.swift */; };
+		A100002F /* DotsAndBoxesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200002F /* DotsAndBoxesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		A200002B /* ChoiceGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceGateView.swift; sourceTree = "<group>"; };
 		A200002C /* UltimateTTTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateTTTViewModel.swift; sourceTree = "<group>"; };
 		A200002D /* UltimateTTTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateTTTView.swift; sourceTree = "<group>"; };
+		A200002E /* DotsAndBoxesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsAndBoxesViewModel.swift; sourceTree = "<group>"; };
+		A200002F /* DotsAndBoxesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsAndBoxesView.swift; sourceTree = "<group>"; };
 		A3000001 /* HotSeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotSeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -135,6 +139,8 @@
 				A200002B /* ChoiceGateView.swift */,
 				A200002C /* UltimateTTTViewModel.swift */,
 				A200002D /* UltimateTTTView.swift */,
+				A200002E /* DotsAndBoxesViewModel.swift */,
+				A200002F /* DotsAndBoxesView.swift */,
 				A2000004 /* Assets.xcassets */,
 				A2000099 /* PrivacyInfo.xcprivacy */,
 			);
@@ -264,6 +270,8 @@
 				A100002B /* ChoiceGateView.swift in Sources */,
 				A100002C /* UltimateTTTViewModel.swift in Sources */,
 				A100002D /* UltimateTTTView.swift in Sources */,
+				A100002E /* DotsAndBoxesViewModel.swift in Sources */,
+				A100002F /* DotsAndBoxesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
