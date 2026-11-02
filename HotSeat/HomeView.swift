@@ -21,7 +21,7 @@ let allGames: [Game] = [
     Game(id: "vocalGlide", name: "Pig Flight", emoji: "🐷", icon: nil, isAvailable: true),
     Game(id: "choiceGate", name: "This or That", emoji: "⚖️", icon: nil, isAvailable: true),
     Game(id: "ultimateTTT", name: "Ultimate TTT", emoji: "#️⃣", icon: nil, isAvailable: true),
-    Game(id: "dotsAndBoxes", name: "Dots & Boxes", emoji: "⬜", icon: nil, isAvailable: true),
+    Game(id: "dotsAndBoxes", name: "Dots & Boxes", emoji: "📦", icon: nil, isAvailable: true),
 ]
 
 struct HomeView: View {

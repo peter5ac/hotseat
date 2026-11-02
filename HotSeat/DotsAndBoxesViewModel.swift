@@ -50,6 +50,8 @@ final class DotsAndBoxesViewModel {
 
     var hLines: [[Bool]] = []
     var vLines: [[Bool]] = []
+    var hOwners: [[DBPlayer?]] = []
+    var vOwners: [[DBPlayer?]] = []
     var boxes: [[DBPlayer?]] = []
 
     var player1Score: Int = 0
@@ -88,6 +90,8 @@ final class DotsAndBoxesViewModel {
     private func beginPlay() {
         hLines = Array(repeating: Array(repeating: false, count: gridSize - 1), count: gridSize)
         vLines = Array(repeating: Array(repeating: false, count: gridSize), count: gridSize - 1)
+        hOwners = Array(repeating: Array(repeating: nil, count: gridSize - 1), count: gridSize)
+        vOwners = Array(repeating: Array(repeating: nil, count: gridSize), count: gridSize - 1)
         boxes = Array(repeating: Array(repeating: nil, count: gridSize - 1), count: gridSize - 1)
         player1Score = 0
         player2Score = 0
@@ -101,6 +105,7 @@ final class DotsAndBoxesViewModel {
         guard row >= 0, row < gridSize, col >= 0, col < gridSize - 1 else { return }
         guard !hLines[row][col] else { return }
         hLines[row][col] = true
+        hOwners[row][col] = currentPlayer
         moveCount += 1
         let completed = checkBoxesForHLine(row: row, col: col)
         if completed == 0 { currentPlayer = currentPlayer.next }
@@ -112,6 +117,7 @@ final class DotsAndBoxesViewModel {
         guard row >= 0, row < gridSize - 1, col >= 0, col < gridSize else { return }
         guard !vLines[row][col] else { return }
         vLines[row][col] = true
+        vOwners[row][col] = currentPlayer
         moveCount += 1
         let completed = checkBoxesForVLine(row: row, col: col)
         if completed == 0 { currentPlayer = currentPlayer.next }

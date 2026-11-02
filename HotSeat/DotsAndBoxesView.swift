@@ -252,7 +252,7 @@ struct DotsAndBoxesView: View {
             ForEach(0..<n, id: \.self) { r in
                 ForEach(0..<(n - 1), id: \.self) { c in
                     Capsule()
-                        .fill(viewModel.hLines[r][c] ? Color.white : Color.white.opacity(0.12))
+                        .fill(viewModel.hOwners[r][c].map(colorForPlayer) ?? Color.white.opacity(0.12))
                         .frame(width: spacing - dotR * 2 - 4, height: lineW)
                         .position(
                             x: ox + (CGFloat(c) + 0.5) * spacing,
@@ -265,7 +265,7 @@ struct DotsAndBoxesView: View {
             ForEach(0..<(n - 1), id: \.self) { r in
                 ForEach(0..<n, id: \.self) { c in
                     Capsule()
-                        .fill(viewModel.vLines[r][c] ? Color.white : Color.white.opacity(0.12))
+                        .fill(viewModel.vOwners[r][c].map(colorForPlayer) ?? Color.white.opacity(0.12))
                         .frame(width: lineW, height: spacing - dotR * 2 - 4)
                         .position(
                             x: ox + CGFloat(c) * spacing,
